@@ -23,6 +23,7 @@ module.exports = {
         goerli: {
             url: REACT_APP_ALCHEMY_API_URL,
             accounts: [REACT_APP_PRIVATE_KEY],
+            chainId: 5,
         },
     },
     solidity: {
